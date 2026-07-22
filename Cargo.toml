@@ -1,0 +1,10 @@
+[package]
+name = "sysinfo-monitor"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+muda = "0.19.3" # 原生下拉菜单支持
+sysinfo = "0.38.4" # 提取 CPU/内存/系统数据
+tray-icon = "0.24.1" # 跨平台/macOS 顶部菜单栏控制
+winit = "0.30.13" # 负责 macOS 事件循环 (Event Loop)
